@@ -6,5 +6,9 @@ public class Main {
     programmer.walk();
     Dancer.walk();
     Singer.walk();
+    Person[] massive = new Person[]{programmer,Dancer,Singer};
+        for (int i = 0; i < massive.length; i++) {
+            System.out.println(massive[i]);
+        }
     }
 }
